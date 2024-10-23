@@ -22,17 +22,18 @@ Este projeto simula as funcionalidades básicas de um iPhone 2007, implementando
 - Adicionar nova aba
 - Atualizar página
 
+
 # Diagrama UML do Componente iPhone
 
 Este diagrama representa as funcionalidades principais do iPhone, incluindo as interfaces para Reprodutor Musical, Aparelho Telefônico e Navegador de Internet.
 
 ```mermaid
 classDiagram
-    class iphone
+    class iPhone
 
-    iphone --|> ReprodutorMusical
-    iphone --|> AparelhoTelefonico
-    iphone --|> NavegadorInternet
+    iPhone --|> ReprodutorMusical
+    iPhone --|> AparelhoTelefonico
+    iPhone --|> NavegadorInternet
 
     class ReprodutorMusical {
       +tocar()
@@ -51,7 +52,7 @@ classDiagram
       +adicionarNovaAba()
       +atualizarPagina()
     }
-
+```
 
 ## Licença
 
